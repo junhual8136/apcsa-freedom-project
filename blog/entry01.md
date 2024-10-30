@@ -7,8 +7,7 @@ I decided to choose the tool godot because I want to learn how to use a game eng
 
 Because I chose to use godot with C#, I had to learn the basics of C# first. Since C# is extremely similar to Java, I decided to skim through the [C# documentation](https://www.w3schools.com/cs/index.php) and learn the basics through a simple project where I create a hangman terminal game.
 
-I decided to use the Visual Studio IDE since it was built around C# and the dotnet 
-
+While for godot, I started to learn how to create sprites, collisons and attach scripts to nodes.
 [Next](entry02.md)
 
 [Home](../README.md)
