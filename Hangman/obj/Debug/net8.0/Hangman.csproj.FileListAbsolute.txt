@@ -1,0 +1,15 @@
+/Users/junhualai/RiderProjects/apcsa-freedom-project/Hangman/bin/Debug/net8.0/Hangman
+/Users/junhualai/RiderProjects/apcsa-freedom-project/Hangman/bin/Debug/net8.0/Hangman.deps.json
+/Users/junhualai/RiderProjects/apcsa-freedom-project/Hangman/bin/Debug/net8.0/Hangman.runtimeconfig.json
+/Users/junhualai/RiderProjects/apcsa-freedom-project/Hangman/bin/Debug/net8.0/Hangman.dll
+/Users/junhualai/RiderProjects/apcsa-freedom-project/Hangman/bin/Debug/net8.0/Hangman.pdb
+/Users/junhualai/RiderProjects/apcsa-freedom-project/Hangman/obj/Debug/net8.0/Hangman.GeneratedMSBuildEditorConfig.editorconfig
+/Users/junhualai/RiderProjects/apcsa-freedom-project/Hangman/obj/Debug/net8.0/Hangman.AssemblyInfoInputs.cache
+/Users/junhualai/RiderProjects/apcsa-freedom-project/Hangman/obj/Debug/net8.0/Hangman.AssemblyInfo.cs
+/Users/junhualai/RiderProjects/apcsa-freedom-project/Hangman/obj/Debug/net8.0/Hangman.csproj.CoreCompileInputs.cache
+/Users/junhualai/RiderProjects/apcsa-freedom-project/Hangman/obj/Debug/net8.0/Hangman.sourcelink.json
+/Users/junhualai/RiderProjects/apcsa-freedom-project/Hangman/obj/Debug/net8.0/Hangman.dll
+/Users/junhualai/RiderProjects/apcsa-freedom-project/Hangman/obj/Debug/net8.0/refint/Hangman.dll
+/Users/junhualai/RiderProjects/apcsa-freedom-project/Hangman/obj/Debug/net8.0/Hangman.pdb
+/Users/junhualai/RiderProjects/apcsa-freedom-project/Hangman/obj/Debug/net8.0/Hangman.genruntimeconfig.cache
+/Users/junhualai/RiderProjects/apcsa-freedom-project/Hangman/obj/Debug/net8.0/ref/Hangman.dll
