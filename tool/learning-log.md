@@ -20,8 +20,28 @@
 * static body 2d adds a hitbox
 * Collison polygon 2d creates a collision with tiles
 
+### 11/8/24:
+<img width="243" alt="Screenshot 2024-11-08 at 12 19 06 PM" src="https://github.com/user-attachments/assets/19cfcc58-e832-499e-bd62-d2ab5f8ef343">
+* Tilemap is used to create individual tiles with certain properties
+* creating a tilemap like the one on top will create one tile set level 
+   * draging in tiles and selecting the property 
+*
 
+```c#
+public override void _Ready()
+{
+    var button = new Button();
+    button.Text = "Start";
+    button.Pressed += ButtonPressed;
+    AddChild(button);
+}
 
+private void ButtonPressed()
+{
+    // load the scene 
+}
+```
+* this should create a button that when pressed, loads the scene when I learn how to.
 
 <!--
 * Links you used today (websites, videos, etc)
