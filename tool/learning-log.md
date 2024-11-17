@@ -43,6 +43,14 @@ private void ButtonPressed()
 ```
 * this should create a button that when pressed, loads the scene when I learn how to.
 
+
+### 11/17/24
+* I watched a full walkthrough [tutorial](https://www.youtube.com/watch?v=LOhfqjmasi0) on how to make a 2d godot game.
+* <img width="268" alt="Screenshot 2024-11-17 at 1 05 04 PM" src="https://github.com/user-attachments/assets/4aed67fc-f2b6-4720-9f73-c8cf8f97034b">   
+   * I found that you can make a tile animated and move in game by changing the values in the transform section.
+* I read the godot [documentation](https://docs.godotengine.org/en/3.0/getting_started/step_by_step/ui_main_menu.html) on how to create menus and made a start menu   
+   *
+
 <!--
 * Links you used today (websites, videos, etc)
 * Things you tried, progress you made, etc
