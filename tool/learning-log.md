@@ -51,6 +51,36 @@ private void ButtonPressed()
 * I read the godot [documentation](https://docs.godotengine.org/en/3.0/getting_started/step_by_step/ui_main_menu.html) on how to create menus and made a start menu   
    *
 
+### 11/24/24
+* Render text:
+  
+```c#
+     using Godot;
+
+public class ScoreManager : Node
+{
+    private Label scoreText;
+    private int score = 0;
+
+    public override void _Ready()
+    {
+        scoreText = GetNode<Label>("game/node2d");
+        UpdateScore();
+    }
+
+    public void AddScore(int amount)
+    {
+        score += amount;
+        UpdateScore();
+    }
+
+    public void UpdateScore()
+    {
+       scoreText.Text = $"Score: {_score}";
+    }
+}
+```
+   * _Ready() is automatically called at the start
 <!--
 * Links you used today (websites, videos, etc)
 * Things you tried, progress you made, etc
