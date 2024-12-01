@@ -81,6 +81,34 @@ public class ScoreManager : Node
 }
 ```
    * _Ready() is automatically called at the start
+
+### 12/1/24
+basic godot implentation to get the mouse clicked location
+```c#
+public override void _Input(InputEvent @event)
+{
+    if (@event is InputEventMouseButton eventMouseButton)
+        GD.Print("Mouse Click/Unclick at: ", eventMouseButton.Position);
+    else if (@event is InputEventMouseMotion eventMouseMotion)
+        GD.Print("Mouse Motion at: ", eventMouseMotion.Position);
+
+}
+```
+* I used this to check to make sure that the player is at least near the object before they can click it
+```c#
+public override void _Input(InputEvent @event) {
+        if (@event is InputEventMouseButton mouseEvent) {
+            if (mouseEvent.Pressed && mouseEvent.ButtonIndex == (int)ButtonList.Left) {
+                Vector2 clickPosition = mouseEvent.Position;
+                if (clickPosition.y == player.position.y) {
+                     if (clickPosition.x - 10 > player.position.x || clickPosition + 10 < player.position.x) {
+                           // object click thing, i have not created any function when clicked
+                     }
+                }
+            }
+        }
+    }
+```
 <!--
 * Links you used today (websites, videos, etc)
 * Things you tried, progress you made, etc
