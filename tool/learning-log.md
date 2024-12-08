@@ -109,8 +109,16 @@ public override void _Input(InputEvent @event) {
         }
     }
 ```
+
+12/8/24
+* Learned a new way to make game buttons and HUDs through the control node which as properties such as button and label, you can add a script to it for it to perform something when the buttons are pressed
+
+<img width="1461" alt="Screenshot 2024-12-08 at 12 27 32 PM" src="https://github.com/user-attachments/assets/b7d60d98-a9f9-4e68-b096-a0144d23b012">
+
+
 <!--
-* Links you used today (websites, videos, etc)
+* Links you used today (websites, videos, etc)![Uploading Screenshot 2024-12-08 at 12.27.32 PM.png…]()
+
 * Things you tried, progress you made, etc
 * Challenges, a-ha moments, etc
 * Questions you still have
