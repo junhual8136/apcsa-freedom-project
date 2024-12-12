@@ -115,6 +115,26 @@ public override void _Input(InputEvent @event) {
 
 <img width="1461" alt="Screenshot 2024-12-08 at 12 27 32 PM" src="https://github.com/user-attachments/assets/b7d60d98-a9f9-4e68-b096-a0144d23b012">
 
+12/11/24
+* I learned how to add a script to the Buttons and UI
+* ```c#
+  public partial class MyUIScript : Control
+{
+private Label labelNode;
+private Button buttonNode;
+
+    public override void _Ready()
+    {
+        buttonNode.Connect("pressed", this, nameof(_OnButtonPressed));
+    }
+
+    private void _OnButtonPressed()
+    {
+        labelNode.Text = "Button clicked!";
+    }
+}
+
+```
 
 <!--
 * Links you used today (websites, videos, etc)![Uploading Screenshot 2024-12-08 at 12.27.32 PM.png…]()
