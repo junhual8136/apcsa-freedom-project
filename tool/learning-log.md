@@ -122,7 +122,7 @@ public override void _Input(InputEvent @event) {
 {
 private Label labelNode;
 private Button buttonNode;
-
+```c#
     public override void _Ready()
     {
         buttonNode.Connect("pressed", this, nameof(_OnButtonPressed));
@@ -135,6 +135,43 @@ private Button buttonNode;
 }
 
 ```
+
+12/20/24
+* I did some testing with running sprite animations.
+```c#
+using Godot;
+
+public partial class Sprite2D : Node2D
+{
+    [Export]
+    public Texture2D SpriteSheet;
+
+    [Export]
+    public Vector2 FrameSize;
+
+    private int _currentFrame;
+    private float _animationTimer;
+    private float _frameRate = 10f; 
+
+    public override void _Process(double delta)
+    {
+        _animationTimer += (float)delta;
+
+        if (_animationTimer >= 1f / _frameRate)
+        {
+            _animationTimer = 0f;
+            _currentFrame = (_currentFrame + 1) % (SpriteSheet.GetWidth() / FrameSize.x);
+
+            var frameRect = new Rect2(_currentFrame * FrameSize.x, 0, FrameSize.x, FrameSize.y);
+            TextureRegion region = new TextureRegion(SpriteSheet, frameRect);
+            this.Texture = region;
+        }
+    }
+}
+
+
+```
+
 
 <!--
 * Links you used today (websites, videos, etc)![Uploading Screenshot 2024-12-08 at 12.27.32 PM.png…]()
