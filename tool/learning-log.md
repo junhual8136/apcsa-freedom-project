@@ -171,7 +171,8 @@ public partial class Sprite2D : Node2D
 
 
 ```
-
+1/12/25
+* Tested different sprite animations with godot 
 
 <!--
 * Links you used today (websites, videos, etc)![Uploading Screenshot 2024-12-08 at 12.27.32 PM.png…]()
