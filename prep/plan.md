@@ -16,7 +16,9 @@
     - 
   - [ ] one level (deadline: 3/1)
     - [ ] some platforms
-      - static platform that the player can stand on
+        - static platform that the player can stand on
+    - [ ] spawn location and end location
+      - end location hitbox where the the level is considered completed
     - [ ] some obstacles
       - at least something that knocks the player off when it comes in contact with the player
       - platforms that "fall", does not have a hitbox and player will phase through it and fall down.
