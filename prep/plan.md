@@ -13,7 +13,7 @@
   - [ ] basic controls (2/21)
     - Make the player controls for the user, for example WASD to move around, space to jump and escape to pause
     - camera that is focused/centered on the player and stays focused on the player so it moves as the player moves
-    - 
+    
   - [ ] one level (deadline: 3/1)
     - [ ] some platforms
         - static platform that the player can stand on
