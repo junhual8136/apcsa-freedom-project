@@ -24,14 +24,19 @@
   - 
 - [ ] Menu (deadline: 4/21)
   - [ ] start screen (deadline: 3/8)
+    - play - load the main scene
+    - help - how to play instruction
   - [ ] end screen (deadline: 3/15)
+    - go back to start button
   - [ ] pause menu (deadline: 3/23)
+    - go back to start
+    - or continue button
 
 #### Beyond MVP
 
 - [ ] Multiple levels
   - [ ] 2 more that are a bit harder than the previous
-    - moving platforms if i have time
+    - moving platforms if I have time
   - [ ] advance controls
     - create a menu that lets the user change their controls 
 
@@ -49,7 +54,7 @@
   - [x] Webpage to collect input from user (deadline: 4/15)
   - [ ] Webpage to display "yes, but a ___ can't" or "no, but a ___ can" (deadline: 5/1)
 - [x] Back-end
-  - [x] Use regex to test whether or not the word can go through the GGD (deadline: 3/1)
+  - [x] Use regex to test whether the word can go through the GGD (deadline: 3/1)
   - [x] Use the Twinword API to find related words (deadline: 3/15)
     - [ ] Iterate through the words until an opposite example can be found (deadline: 4/1)
 
@@ -60,7 +65,7 @@
 - [ ] A multiple choice quizzer that will test the user’s knowledge of the solution
 
 -->
-
+  
 
 
 
