@@ -1,7 +1,7 @@
 # Plan
 
-## Tool: 
-## Product: 
+## Tool: Godot
+## Product: Game
 
 ---
 
@@ -9,13 +9,31 @@
 
 #### MVP
 
-- [ ] Task (deadline: X)
-  - [ ] Subtask (deadline: X)
+- [ ] Game itself (deadline: 4/21)
+  - [ ] basic controls (2/21)
+    - Make the player controls for the user, for example WASD to move around, space to jump and escape to pause
+    - camera that is focused/centered on the player and stays focused on the player so it moves as the player moves
+    - 
+  - [ ] one level (deadline: 3/1)
+    - [ ] some platforms
+      - static platform that the player can stand on
+    - [ ] some obstacles
+      - at least something that knocks the player off when it comes in contact with the player
+      - platforms that "fall", does not have a hitbox and player will phase through it and fall down.
+
+  - 
+- [ ] Menu (deadline: 4/21)
+  - [ ] start screen (deadline: 3/8)
+  - [ ] end screen (deadline: 3/15)
+  - [ ] pause menu (deadline: 3/23)
 
 #### Beyond MVP
 
-- [ ] Task
-  - [ ] Subtask
+- [ ] Multiple levels
+  - [ ] 2 more that are a bit harder than the previous
+    - moving platforms if i have time
+  - [ ] advance controls
+    - create a menu that lets the user change their controls 
 
 
 <!-- EXAMPLE
