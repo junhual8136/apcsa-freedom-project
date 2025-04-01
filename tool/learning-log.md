@@ -225,7 +225,7 @@ public partial class Player : CharacterBody2D
 * through the use of a rigidBody2D or a characterBody2D node, I can attach the script
 * Also found out you can just create getters and setters for primtiives in objects by just adding {get; set;} after the name in c#
 * `IsOnFloor()` checks if the player/character node is standing on something solid for the gravity to not pull the player further down
-  ```c#
+```c#
  using Godot;
 
 public partial class Player : CharacterBody2D
