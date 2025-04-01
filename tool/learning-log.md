@@ -220,7 +220,32 @@ public partial class Player : CharacterBody2D
 }
 ```
 
+3/30/25
+* Figured out how to use the godot physics engine through (the documentation)[https://docs.godotengine.org/en/stable/tutorials/physics/physics_introduction.html]
+* through the use of a rigidBody2D or a characterBody2D node, I can attach the script
+* Also found out you can just create getters and setters for primtiives in objects by just adding {get; set;} after the name in c#
+* `IsOnFloor()` checks if the player/character node is standing on something solid for the gravity to not pull the player further down
+  ```c#
+ using Godot;
 
+public partial class Player : CharacterBody2D
+{
+    private float Gravity { get; set; } = 980.0f;
+
+    private Vector2 velocity = 100;
+
+    public override void _PhysicsProcess(double delta) {
+        if (!IsOnFloor()) {
+            velocity.Y += Gravity * (float)delta;
+        }
+        else {
+            velocity.Y = 0; // Reset vertical velocity when on the ground
+        }
+
+      
+    }
+}
+  ```
 
 
 
