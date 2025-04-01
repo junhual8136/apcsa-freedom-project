@@ -25,7 +25,7 @@
 * Tilemap is used to create individual tiles with certain properties
 * creating a tilemap like the one on top will create one tile set level 
    * draging in tiles and selecting the property 
-*
+
 
 ```c#
 public override void _Ready()
